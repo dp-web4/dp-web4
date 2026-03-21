@@ -22,7 +22,7 @@ Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 |------|------|--------|
 | [web4](https://github.com/dp-web4/web4) | Trust-native ontology (SDK, standard, test vectors) | Public, AGPL-3.0 |
 | [SAGE](https://github.com/dp-web4/SAGE) | Cognition kernel + raising fleet | Public |
-| [snarc](https://github.com/dp-web4/snarc) | Claude Code memory plugin | Public, MIT |
+| [snarc](https://github.com/dp-web4/snarc) | Salience-gated memory for Claude Code | Public, MIT |
 | [Synchronism](https://github.com/dp-web4/Synchronism) | Theoretical physics of coherence | Public |
 | [synchronism-site](https://github.com/dp-web4/synchronism-site) | Research site (75 pages, Vercel) | Public |
 | [SAGE-site](https://github.com/dp-web4/SAGE-site) | SAGE explainer site | Public |
