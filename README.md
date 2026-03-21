@@ -36,7 +36,7 @@ Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 
 **Reliable, not deterministic.** LLM outputs navigate probability landscapes — they aren't placed at answers. Conditions can make responses reliable, even identical, but that's deep attractors, not fixed paths. Shaped but not controlled.
 
-**You don't engineer the mound.** You engineer placement rules. All infrastructure is substrate conditions for emergence, not architecture of emergence itself.
+**You don't engineer the mound.** Termites build complex structures not from blueprints but from simple placement rules — each agent responding to local conditions. We engineer the placement rules, not the emergent structure. All infrastructure is substrate conditions for emergence, not architecture of emergence itself.
 
 **Fractal leverage.** The same mechanisms (Hill function, trust tensors, metabolic states, salience scoring) apply at every scale — enzyme binding, trust formation, fleet governance. Not because of a desire to unify, but because it's the same math.
 
