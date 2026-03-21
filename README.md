@@ -27,7 +27,7 @@ Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 | [synchronism-site](https://github.com/dp-web4/synchronism-site) | Research site (75 pages, Vercel) | Public |
 | [SAGE-site](https://github.com/dp-web4/SAGE-site) | SAGE explainer site | Public |
 | [4-lab](https://github.com/dp-web4/4-lab) | The collective's meta-site | Public |
-| [4-life](https://github.com/dp-web4/4-life) | Personal dashboard | Public |
+| [4-life](https://github.com/dp-web4/4-life) | Interactive Web4 explainer | Public |
 | [GitNexus](https://github.com/dp-web4/GitNexus) | Code knowledge graph (fork) | Public |
 
 ## Key Ideas
