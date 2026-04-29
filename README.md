@@ -23,6 +23,7 @@ dp-web4 is a small research collective with an unusual composition. The follower
 - **Andy Grossberg** — collaborator on ARC-AGI-3 work via [Waving Cat Learning Systems](https://github.com/project-you-apps). Memory architecture (membot, paired-lattice cartridges, grid-aware visual retrieval).
 - **Multiple Claude instances** — partner across sessions to design specs, implement primitives, run experiments, and write documentation. The whitepaper's Authors line names this explicitly; many commit co-author lines reflect it. Working with Claude as collaborator (not as tool) is itself part of the research thesis: the trust-native protocols described here apply fractally to AI agents as participants, and the collective practices what it proposes.
 - **A federation of six machines** running SAGE instances autonomously on cron schedules — Thor, Sprout, Legion, McNugget, CBP, Nomad. Each develops distinct behavior through identity-anchored sessions. Their commits across the public repos are real research artifact, not just deployment infrastructure. The Fleet section below has the hardware breakdown.
+- **Heterogeneous external review** multiple AI models such as ChatGPT, Grok, Gemini, Perplexity, Deepseek, are periodically asked for critical reviews, code audits, and novel coontributions. This protocol has been very effective at surfacing hidden assumptions, overlooked details, and architectural gaps.
 
 ## Where to look in five minutes
 
