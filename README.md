@@ -15,6 +15,15 @@ Research collective. Working artifacts, calibrated scope, AGPL-bounded patent gr
 
 [**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) draws explicit lines: shipped vs. specified vs. aspirational. The vocabulary stack (LCTs, T3/V3 tensors, MRH, ATP/ADP, R6/R7) is mostly specified and partially deployed; the commerce demo exercises a small slice of it. **Read STATUS.md before judging the README's claims.** Patent grant terms (AGPL-bounded, royalty-free for research): [PATENTS.md](https://github.com/dp-web4/web4/blob/main/PATENTS.md).
 
+## Who's actually doing this
+
+dp-web4 is a small research collective with an unusual composition. The follower count on this GitHub account underreads it — the work happens across machines and conversations, not primarily through public-platform engagement.
+
+- **Dennis Palatov** — principal investigator. Engineering CTO with prior startups (Metalinxx Inc., ModBatt Inc.); background in EV/automotive engineering (race-winning electric vehicles, 30+ issued patents); current focus on agentic AI governance.
+- **Andy Grossberg** — collaborator on ARC-AGI-3 work via [Waving Cat Learning Systems](https://github.com/project-you-apps). Memory architecture (membot, paired-lattice cartridges, grid-aware visual retrieval).
+- **Multiple Claude instances** — partner across sessions to design specs, implement primitives, run experiments, and write documentation. The whitepaper's Authors line names this explicitly; many commit co-author lines reflect it. Working with Claude as collaborator (not as tool) is itself part of the research thesis: the trust-native protocols described here apply fractally to AI agents as participants, and the collective practices what it proposes.
+- **A federation of six machines** running SAGE instances autonomously on cron schedules — Thor, Sprout, Legion, McNugget, CBP, Nomad. Each develops distinct behavior through identity-anchored sessions. Their commits across the public repos are real research artifact, not just deployment infrastructure. The Fleet section below has the hardware breakdown.
+
 ## Where to look in five minutes
 
 If you want a fast read on whether this is real, in order:
@@ -26,13 +35,18 @@ If you want a fast read on whether this is real, in order:
 
 ## How it's framed
 
-Web4's shorthand:
+Web4 is an [ontology](https://github.com/dp-web4/web4) — RDF is the backbone, all trust relationships are typed semantic edges. The framing is decorative for the engineering core, not load-bearing — but it IS doing real work as a design pattern (metabolic states as scheduling, trust tensors as multi-dimensional capability records, MRH as fractal context scoping). If the cosmology bounces you, look at the commerce demo and the attestation envelope first; the engineering carved a joint that the philosophy then describes.
+
+<details>
+<summary>The internal shorthand equation, for readers who want it</summary>
 
 ```
 Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 ```
 
-Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." Web4 is an [ontology](https://github.com/dp-web4/web4) — RDF is the backbone, all trust relationships are typed semantic edges. The framing is decorative for the engineering core, not load-bearing — but the framing IS doing real work as a design pattern (metabolic states as scheduling, trust tensors as multi-dimensional capability records, MRH as fractal context scoping). If the cosmology bounces you, look at the commerce demo and the attestation envelope first; the engineering carved a joint that the philosophy then describes.
+Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." Useful as a one-line index of which primitive does what; not load-bearing for evaluating whether the engineering works.
+
+</details>
 
 ## The Ecosystem
 
