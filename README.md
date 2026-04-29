@@ -4,7 +4,7 @@ Research collective. Working artifacts, calibrated scope, AGPL-bounded patent gr
 
 ## What works right now
 
-- **[web4-core 0.1.1](https://crates.io/crates/web4-core) + [web4-trust-core 0.1.1](https://crates.io/crates/web4-trust-core)** on crates.io; **[web4-core](https://pypi.org/project/web4-core/) + [web4-trust](https://pypi.org/project/web4-trust/)** on PyPI. v0.1.0 was yanked the same day it shipped after clean-install verification caught a broken Python import path; v0.1.1 is canonical. The yank-and-republish narrative is itself a credibility artifact: detection → correction → discipline rule preserved as fleet-wide memory, all in one day.
+- **[web4-core 0.1.1](https://crates.io/crates/web4-core) + [web4-trust-core 0.1.1](https://crates.io/crates/web4-trust-core)** on crates.io; **[web4-core](https://pypi.org/project/web4-core/) + [web4-trust](https://pypi.org/project/web4-trust/)** on PyPI. v0.1.0 was yanked the same day it shipped after a missing `__init__.py` was caught in the Python wheel; v0.1.1 is canonical. See [`docs/proof/PUBLISHED.md`](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) for the trail.
 - **94.85% on ARC-AGI-3** with the same Claude Opus 4.6, structured around Web4 patterns via the [SAGE](https://github.com/dp-web4/SAGE) cognition harness. [Public scorecard](https://arcprize.org/scorecards/c7dfb4f1-8642-4c9e-ab4d-152f5f8e33b4). The model didn't change — the structure around it did.
 - **[Commerce delegation demo](https://github.com/dp-web4/web4/tree/main/demo)** in [web4](https://github.com/dp-web4/web4): cryptographically-bounded purchasing authority, instantly revocable, with hardware-anchored identity. 166 passing tests.
 - **[AttestationEnvelope spec](https://github.com/dp-web4/web4/blob/main/docs/specs/attestation-envelope.md)** with Python implementations for TPM2, FIDO2, Secure Enclave, and a software fallback. Not slideware — actual plumbing.
@@ -20,7 +20,7 @@ Research collective. Working artifacts, calibrated scope, AGPL-bounded patent gr
 If you want a fast read on whether this is real, in order:
 
 1. [**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) — calibration. What's shipped, what's specified, what's aspirational.
-2. [**docs/proof/PUBLISHED.md**](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) — the v0.1.0 → v0.1.1 same-day catch-and-fix narrative.
+2. [**docs/proof/PUBLISHED.md**](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) — what's published, when, and why v0.1.0 was yanked.
 3. [**web4/demo/**](https://github.com/dp-web4/web4/tree/main/demo) — the commerce delegation demo, 166 tests.
 4. [**web4/simulations/**](https://github.com/dp-web4/web4/tree/main/simulations) — 424 attack vectors / 84 tracks, ~85% detection rate.
 
