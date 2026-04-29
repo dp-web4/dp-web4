@@ -13,7 +13,7 @@ Research collective. Working artifacts, calibrated scope, AGPL-bounded patent gr
 
 ## What's calibrated
 
-[**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) draws explicit lines: shipped vs. specified vs. aspirational. The vocabulary stack (LCTs, T3/V3 tensors, MRH, ATP/ADP, R6/R7) is mostly specified and partially deployed; the commerce demo exercises a small slice of it. **Read STATUS.md before judging the README's claims.** Patent grant terms (AGPL-bounded, royalty-free for research): [PATENTS.md](https://github.com/dp-web4/web4/blob/main/PATENTS.md).
+[**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) draws explicit lines: shipped vs. specified vs. aspirational. The vocabulary stack (LCTs, T3/V3 tensors, MRH, ATP/ADP, R6/R7) is fully specified in docs and initially deployed; the commerce demo exercises a small slice of it. **Read STATUS.md before judging the README's claims.** Patent grant terms (AGPL-bounded, royalty-free for research): [PATENTS.md](https://github.com/dp-web4/web4/blob/main/PATENTS.md).
 
 ## Who's actually doing this
 
@@ -55,7 +55,7 @@ Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." A 
 | [ARC-SAGE](https://github.com/dp-web4/ARC-SAGE) | ARC-AGI-3 competition entry — solvers, traces, paper | Public, MIT-0 |
 | [4-life](https://github.com/dp-web4/4-life) | Interactive Web4 explainer (live: [4-life-ivory.vercel.app](https://4-life-ivory.vercel.app/)) | Public |
 | [SAGE-site](https://github.com/dp-web4/SAGE-site) | SAGE explainer site | Public |
-| [Synchronism](https://github.com/dp-web4/Synchronism) | Blue-sky coherence exploration. Informs Web4 and SAGE philosophically, not engineering. | Public |
+| [Synchronism](https://github.com/dp-web4/Synchronism) | Blue-sky coherence exploration. Informs Web4 and SAGE philosophically, not engineering. Specifically, MRH originates in Synchronism. | Public |
 | [synchronism-site](https://github.com/dp-web4/synchronism-site) | 75-page Synchronism site (Vercel) | Public |
 | [4-lab](https://github.com/dp-web4/4-lab) | Collective meta-site | Public |
 | [GitNexus](https://github.com/dp-web4/GitNexus) | Code knowledge graph (fork, in active use) | Public |
