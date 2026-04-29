@@ -17,7 +17,7 @@ Research collective. Working artifacts, calibrated scope, AGPL-bounded patent gr
 
 ## Who's actually doing this
 
-dp-web4 is a small research collective with an unusual composition. The follower count on this GitHub account underreads it — the work happens across machines and conversations, not primarily through public-platform engagement.
+dp-web4 is a small research collective with an unusual composition. The follower count on this GitHub account underreads it — the work happens across machines and conversations, not primarily through public-platform engagement.  The multi-thousand commit history on the repos and 20M+ LOC across them attest to the scope.
 
 - **Dennis Palatov** — principal investigator. Engineering CTO with prior startups (Metalinxx Inc., ModBatt Inc.); background in EV/automotive engineering (race-winning electric vehicles, 30+ issued patents); current focus on agentic AI governance.
 - **Andy Grossberg** — collaborator on ARC-AGI-3 work via [Waving Cat Learning Systems](https://github.com/project-you-apps). Memory architecture (membot, paired-lattice cartridges, grid-aware visual retrieval).
