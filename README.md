@@ -80,6 +80,15 @@ These are the conceptual primitives the engineering rests on. Read them after th
 
 The value of research is that the investigation happens at all. Most research leads nowhere — and that's expected. WD-40 was the 40th try. Productively wrong is infinitely more valuable than never started.
 
+## About me
+The world is changing - I build the systems that make the change coherent.
+
+I work across scales: from vehicles and modular batteries to trust frameworks and emergent autonomous AI governance. My path has always been design, but not just design of things - design of integration. Mechanical, electrical, firmware, software, teams, markets: I’ve taken them all from concept to delivery.
+
+With 30 U.S. patents and decades of ground-up builds, I focus less on skills-as-inventory and more on pattern recognition - noticing what emerges, naming it, and shaping it into something others can use.
+
+AI renders all of this both obsolete and indispensable. That paradox is where I operate.
+
 ---
 
 *Contact: [dp@metalinxx.io](mailto:dp@metalinxx.io)*
