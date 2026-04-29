@@ -35,18 +35,15 @@ If you want a fast read on whether this is real, in order:
 
 ## How it's framed
 
-Web4 is an [ontology](https://github.com/dp-web4/web4) — RDF is the backbone, all trust relationships are typed semantic edges. The framing is decorative for the engineering core, not load-bearing — but it IS doing real work as a design pattern (metabolic states as scheduling, trust tensors as multi-dimensional capability records, MRH as fractal context scoping). If the cosmology bounces you, look at the commerce demo and the attestation envelope first; the engineering carved a joint that the philosophy then describes.
+Web4 is an [ontology](https://github.com/dp-web4/web4). RDF is the backbone — all trust relationships, role bindings, MRH edges, and tensor sub-dimensions are expressed as typed RDF triples, which is what makes the protocol extensible without central coordination. The framing carves the joint: metabolic states as resource scheduling, trust tensors as multi-dimensional capability records bound to entity-role pairs, MRH as fractal context scoping. Each primitive has its own [spec](https://github.com/dp-web4/web4/tree/main/web4-standard/core-spec).
 
-<details>
-<summary>The internal shorthand equation, for readers who want it</summary>
+The shorthand:
 
 ```
 Web4 = MCP + RDF + LCT + T3/V3*MRH + ATP/ADP
 ```
 
-Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." Useful as a one-line index of which primitive does what; not load-bearing for evaluating whether the engineering works.
-
-</details>
+Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." A one-line index of which primitive does what.
 
 ## The Ecosystem
 
