@@ -1,6 +1,6 @@
 # dp-web4
 
-Research collective. Working artifacts, calibrated scope, AGPL-bounded patent grant. Started 2026.
+Research collective. Working artifacts, calibrated scope, AGPL-bounded patent grant. Started mid-2025.
 
 ## What works right now
 
