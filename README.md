@@ -44,7 +44,7 @@ Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." We
 | [ARC-SAGE](https://github.com/dp-web4/ARC-SAGE) | ARC-AGI-3 competition entry — solvers, traces, paper | Public, MIT-0 |
 | [4-life](https://github.com/dp-web4/4-life) | Interactive Web4 explainer (live: [4-life-ivory.vercel.app](https://4-life-ivory.vercel.app/)) | Public |
 | [SAGE-site](https://github.com/dp-web4/SAGE-site) | SAGE explainer site | Public |
-| [Synchronism](https://github.com/dp-web4/Synchronism) | Theoretical-physics research thread | Public |
+| [Synchronism](https://github.com/dp-web4/Synchronism) | Blue-sky coherence exploration. Informs Web4 and SAGE philosophically, not engineering. | Public |
 | [synchronism-site](https://github.com/dp-web4/synchronism-site) | 75-page Synchronism site (Vercel) | Public |
 | [4-lab](https://github.com/dp-web4/4-lab) | Collective meta-site | Public |
 | [GitNexus](https://github.com/dp-web4/GitNexus) | Code knowledge graph (fork, in active use) | Public |
