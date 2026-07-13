@@ -4,16 +4,16 @@ Research collective. Working artifacts, calibrated scope, AGPL-bounded patent gr
 
 ## What works right now
 
-- **[web4-core 0.1.1](https://crates.io/crates/web4-core) + [web4-trust-core 0.1.1](https://crates.io/crates/web4-trust-core)** on crates.io; **[web4-core](https://pypi.org/project/web4-core/) + [web4-trust](https://pypi.org/project/web4-trust/)** on PyPI. v0.1.0 was yanked the same day it shipped after a missing `__init__.py` was caught in the Python wheel; v0.1.1 is canonical. See [`docs/proof/PUBLISHED.md`](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) for the trail.
+- **[web4-core 0.3.0](https://crates.io/crates/web4-core)** on crates.io + [PyPI](https://pypi.org/project/web4-core/) (role entities, the Act primitive, canonical T3/V3, the EUDI/OID4VC/DID stack); **[web4-trust-core 0.2.0](https://crates.io/crates/web4-trust-core)** + **[web4-trust](https://pypi.org/project/web4-trust/)** on PyPI. (v0.1.0 was yanked the day it shipped over a missing wheel `__init__.py`.) See [`docs/proof/PUBLISHED.md`](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) for the trail.
 - **94.85% on ARC-AGI-3** with the same Claude Opus 4.6, structured around Web4 patterns via a focused version of the [SAGE](https://github.com/dp-web4/ARC-SAGE) cognition harness. [Public scorecard](https://arcprize.org/scorecards/c7dfb4f1-8642-4c9e-ab4d-152f5f8e33b4). The model didn't change — the structure around it did.
-- **[Commerce delegation demo](https://github.com/dp-web4/web4/tree/main/demo)** in [web4](https://github.com/dp-web4/web4): cryptographically-bounded purchasing authority, instantly revocable, with hardware-anchored identity. 166 passing tests.
+- **[A running Web4 society](https://github.com/dp-web4/web4/tree/main/hub)** (the `hub`): LCT-pinned membership, sealed end-to-end channels, a witnessed hash-chained ledger, hub-law gating consequential acts, and an LCT-signature operator gate — operated in production by the fleet. The standard *running*, not mocked. Paired with [hestia](https://github.com/dp-web4/hestia) at the agent boundary.
 - **[AttestationEnvelope spec](https://github.com/dp-web4/web4/blob/main/docs/specs/attestation-envelope.md)** with Python implementations for TPM2, FIDO2, Secure Enclave, and a software fallback. Not slideware — actual plumbing.
 - **[Heterogeneous identity design note](https://github.com/dp-web4/web4/blob/main/docs/specs/heterogeneous-identity.md)** (2026-04-29). The constellation framing — your LCT isn't a single token, it's a graph of mutually-witnessing factors — answers the recurring "what stops a hardware vendor from gating LCT access?" question structurally.
 - **6-machine federation** running cognition experiments. Trace-derived rule pipelines that verify 4× better than human-authored rules; signed peer-witness scans across the fleet; raising-session sequences across multiple models — all visible as commits across the public repos.
 
 ## What's calibrated
 
-[**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) draws explicit lines: shipped vs. specified vs. aspirational. The vocabulary stack (LCTs, T3/V3 tensors, MRH, ATP/ADP, R6/R7) is fully specified in docs and initially deployed; the commerce demo exercises a small slice of it. **Read STATUS.md before judging the README's claims.** Patent grant terms (AGPL-bounded, royalty-free for research): [PATENTS.md](https://github.com/dp-web4/web4/blob/main/PATENTS.md).
+[**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) draws explicit lines: shipped vs. specified vs. aspirational. The vocabulary stack (LCTs, T3/V3 tensors, MRH, ATP/ADP, R6/R7) is fully specified in docs and initially deployed; the hub runs a working slice of it as a live society. **Read STATUS.md before judging the README's claims.** Patent grant terms (AGPL-bounded, royalty-free for research): [PATENTS.md](https://github.com/dp-web4/web4/blob/main/PATENTS.md).
 
 ## Who's actually doing this
 
@@ -31,7 +31,7 @@ If you want a fast read on whether this is real, in order:
 
 1. [**STATUS.md**](https://github.com/dp-web4/web4/blob/main/STATUS.md) — calibration. What's shipped, what's specified, what's aspirational.
 2. [**docs/proof/PUBLISHED.md**](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) — what's published, when, and why v0.1.0 was yanked.
-3. [**web4/demo/**](https://github.com/dp-web4/web4/tree/main/demo) — the commerce delegation demo, 166 tests.
+3. [**web4/hub/**](https://github.com/dp-web4/web4/tree/main/hub) — a running Web4 society (ledger, sealed channels, hub-law, operator gate).
 4. [**web4/simulations/**](https://github.com/dp-web4/web4/tree/main/simulations) — 424 attack vectors / 84 tracks, ~85% detection rate.
 
 ## How it's framed
@@ -50,7 +50,7 @@ Where `/` = "verified by," `*` = "contextualized by," `+` = "augmented with." A 
 
 | Repo | What | Status |
 |------|------|--------|
-| [web4](https://github.com/dp-web4/web4) | Trust-native ontology — spec, SDK, demo, simulations | Public, AGPL-3.0-or-later |
+| [web4](https://github.com/dp-web4/web4) | Trust-native ontology — spec, SDK, the hub society, simulations | Public, AGPL-3.0-or-later |
 | [SAGE](https://github.com/dp-web4/SAGE) | Cognition kernel + 6-machine raising fleet | Public, AGPL |
 | [snarc](https://github.com/dp-web4/snarc) | Salience-gated memory plugin for Claude Code | Public, MIT |
 | [ARC-SAGE](https://github.com/dp-web4/ARC-SAGE) | ARC-AGI-3 competition entry — solvers, traces, paper | Public, MIT-0 |
