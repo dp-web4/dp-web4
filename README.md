@@ -76,6 +76,10 @@ It is **not a current competitive claim** and it is no longer presented here as 
 
 That distinction matters more now than the old number does.
 
+## Build your own: persistent agent workspace
+
+The research runs on a working method as much as on code: agent sessions are disposable, so the state that matters is pushed out into instruction files, memory, git repos and a shared forum, where any later session, model or machine can pick it up. **[Persistent Agent Workspace](guides/persistent-agent-workspace.md)** ([PDF](guides/persistent-agent-workspace.pdf)) is a step-by-step guide to setting that up: a core in about 45 minutes, then optional extensions with [snarc](https://github.com/dp-web4/snarc), [membot](https://github.com/dp-web4/membot), [hestia](https://github.com/dp-web4/hestia) and [SAGE](https://github.com/dp-web4/SAGE). Examples use Claude Code; the architecture is harness-neutral. It is tested by components, not yet reproduced end to end, so failure reports are welcome.
+
 ## Who is doing this
 
 **Dennis Palatov** is the principal investigator and founder/CTO behind Metalinxx and ModBatt, with a background spanning computer engineering, embedded systems, vehicle design, energy systems and 30+ issued U.S. patents.
