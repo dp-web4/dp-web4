@@ -20,6 +20,8 @@ That is the stack being built here.
 
 The layers are intentionally separable. Web4 is the protocol substrate. Hestia and Hub are open reference runtimes at different boundaries. Hardbound raises the enterprise assurance grade. SAGE is where the same identity/governance ideas are pushed into persistent cognition and embodiment.
 
+> **Status source (2026-10-23):** This organization overview is not a live deployment report. Package versions and published artifacts should be checked against the [Web4 publication ledger](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md) and [dated Web4 status](https://github.com/dp-web4/web4/blob/main/STATUS.md); the Hestia [README](https://github.com/dp-web4/hestia#readme) and SAGE [dated status](https://github.com/dp-web4/SAGE/blob/main/sage/docs/LATEST_STATUS.md) carry project-specific limitations. A published source commit is not evidence that a particular machine is running it.
+
 ## What works now
 
 - **Published Web4 primitives.** `web4-core` 0.3.0 is published on [crates.io](https://crates.io/crates/web4-core) and [PyPI](https://pypi.org/project/web4-core/); `web4-trust-core` 0.2.0 is on crates.io and `web4-trust` 0.2.0 is on PyPI. The `web4-core` source on `main` is 0.4.0. See [the publication trail](https://github.com/dp-web4/web4/blob/main/docs/proof/PUBLISHED.md).
